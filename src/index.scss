@@ -1,6 +1,21 @@
+@font-face {
+  font-family: "Open Sans Condensed Bold";
+  src: local("OpenSans-CondBold"),url("./fonts/OpenSans-CondBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Open Sans Condensed Light";
+  src: local("OpenSans-CondLight"),url("./fonts/OpenSans-CondLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Open Sans Condensed Light Italic";
+  src: local("OpenSans-CondLightItalic"),url("./fonts/OpenSans-CondLightItalic.ttf") format("truetype");
+}
+
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Condensed Light', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
